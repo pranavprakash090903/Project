@@ -1,0 +1,36 @@
+nav {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    z-index: 2;
+    position: relative;
+    background-color: black;
+}
+
+.brand img {
+    width: 80px;
+    padding: 0 8px;
+}

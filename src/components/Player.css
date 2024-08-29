@@ -1,0 +1,68 @@
+.bottom {
+    position: sticky;
+    bottom: 0;
+    height: 130px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.progress-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.time {
+    font-size: 1rem;
+    margin: 0 10px;
+}
+
+.icons {
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.icons i {
+    cursor: pointer;
+    color: white;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.icons i:hover {
+    transform: scale(1.2);
+    color: #1DB954;
+}
+
+#myProgressBar {
+    width: 70vw;
+    cursor: pointer;
+}
+
+.songInfo {
+    position: absolute;
+    left: 10vw;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.songInfo img {
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+.gi {
+    opacity: 1;
+}
+
+.hello {
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
